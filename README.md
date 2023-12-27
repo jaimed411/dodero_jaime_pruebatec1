@@ -36,7 +36,7 @@ Al desarrollar la aplicación, se han considerado los siguientes supuestos:
 - Base de Datos: Se asume que la base de datos configurada en el archivo persistence.xml está disponible y accesible durante la ejecución de la aplicación.
 
 ## Base de datos: 
-La aplicación utiliza una base de datos embebida proporcionada por JPA. Asegúrese de que la configuración de la base de datos en el archivo persistence.xml sea adecuada.
+La aplicación utiliza una base de datos embebida proporcionada por JPA. Asegúrese de que la configuración de la base de datos en el archivo persistence.xml sea adecuada. En cuanto al proceso de configuración de la base de datos, Maven es utilizado para manejar las dependencias y la construcción del proyecto. Maven ha simplificado la gestión de dependencias y la construcción del proyecto y esta vinculada directamente a MySQL.
 
 ## Operaciones de Actualización y Eliminación:
 Antes de realizar operaciones de actualización o eliminación, el usuario deberá confirmar su acción para evitar cambios accidentales.
