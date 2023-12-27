@@ -2,41 +2,56 @@
   <img src="https://github.com/jaimed411/dodero_jaime_pruebatec1/blob/main/pruebatec1.jpg" alt="foto">
 </p>
 
-## Desarrollo de una Aplicación de Gestión de Empleados
+## OBJETIVO: Desarrollo de una Aplicación de Gestión de Empleados
 
 El objetivo de esta prueba es evaluar tus conocimientos en Java, incluyendo sintaxis, estructuras repetitivas, estructuras selectivas, manejo de colecciones y operaciones CRUD (Crear, Leer, Actualizar y Borrar) utilizando JPA (Java Persistence API) para interactuar con una base de datos.
 
-## Descripción del caso:
+## Descripción de la Aplicación:
 
-Debes desarrollar el backend lógico para una aplicación de gestión de empleados de una empresa. La aplicación debe permitir a los usuarios realizar las siguientes operaciones:
-- Agregar un nuevo empleado: Los usuarios deben poder ingresar información sobre un nuevo empleado, incluyendo nombre, apellido, cargo, salario y fecha de inicio.
-- Listar empleados: La aplicación debe permitir la visualización de la lista de todos los empleados en la base de datos.
-- Actualizar información de un empleado: Los usuarios deben poder modificar la información de un empleado existente (nombre, apellido, cargo, salario o fecha de inicio).
-- Eliminar un empleado: La aplicación debe permitir eliminar un empleado de la base de datos.
-- Buscar empleados por cargo: Los usuarios deben poder buscar empleados por su cargo y ver una lista de los empleados que tienen ese cargo.
+La aplicación desarrollada es un sistema de gestión de empleados para la empresa DOD4NET, que permite realizar diversas operaciones como agregar nuevos empleados, listar empleados, actualizar información de cada empleado, eliminar a un empleado, buscar empleados por cargo y ver le fecha de incio de cada empleado. La aplicación está implementada en Java y utiliza Java Persistence API (JPA) para la persistencia de datos.
 
-## Requisitos técnicos:
+## Requisitos previos:
 
-- Utiliza Java para el desarrollo de la aplicación.
-- Debes utilizar estructuras de control para la validación de datos de entrada, como asegurarte de que los campos obligatorios no estén vacíos (obligatorio) y que los valores sean válidos (opcional).
-- La aplicación debe utilizar JPA para acceder a la base de datos. Asegúrate de configurar una fuente de datos y una entidad "Empleado" con las propiedades necesarias.
-- Utiliza colecciones para gestionar los datos antes de interactuar con la base de datos.
+Antes de ejecutar la aplicación, asegúrese de tener instalado lo siguiente:
+- Entorno IDE, al ser posible Netbeans IDE 17
+- Java Development Kit (JDK) - versión 17
+- Apache Maven
 
-## EXTRA
+## Instrucciones de Ejecución:
+- Compilación del Proyecto:
+  - Abra una terminal o línea de comandos en el directorio raíz del proyecto.
+  - Ejecute el siguiente comando para compilar el proyecto:
+    mvn clean install
+- Ejecución de la Aplicación:
+  - Ejecute el siguiente comando para ejecutar la aplicación:
+    java -jar target/pruebatec1-1.0-SNAPSHOT.jar
+- Interactuar con la Aplicación: Se presentará un menú interactivo en la consola. Siga las instrucciones en pantalla para seleccionar las operaciones deseadas (agregar, ver lista, actualizar, eliminar, buscar empleado, ver fecha de inicio y salir). Se recomienda realizar pruebas. Añade empleados, obeserva la lista que vas creando, actualice y/o elimine empleados para verificar el correcto funcionamiento.
 
-En caso de que sepas manejar excepciones te proponemos el siguiente punto extra:
--La aplicación debe ser capaz de manejar errores y excepciones de manera apropiada, como la gestión de registros duplicados o la búsqueda de empleados que no existen, etc.
+## Supuestos Considerados:
+Al desarrollar la aplicación, se han considerado los siguientes supuestos:
+- Entrada de Datos Válida: Se espera que el usuario proporcione entradas válidas durante la interacción con la aplicación.
+- Formato de Fecha: Se asume que el usuario ingresará la fecha de inicio en el formato "YYYY-MM-DD".
+- Entrada de Salario: Se asume que el usuario ingresará el salario como un número decimal. Si se ingresa un valor no numérico, se mostrará un mensaje de error
+- ID de Empleado: Al buscar, actualizar o eliminar un empleado, se asume que el usuario ingresará correctamente el ID del empleado. Si se proporciona un ID no válido, se mostrará un mensaje de error.
+- Base de Datos: Se asume que la base de datos configurada en el archivo persistence.xml está disponible y accesible durante la ejecución de la aplicación.
 
-## Entregables
+## Base de datos: 
+La aplicación utiliza una base de datos embebida proporcionada por JPA. Asegúrese de que la configuración de la base de datos en el archivo persistence.xml sea adecuada.
 
-- Código fuente de la aplicación en un repositorio de control de versiones (GitHub).
+## Operaciones de Actualización y Eliminación:
+Antes de realizar operaciones de actualización o eliminación, el usuario deberá confirmar su acción para evitar cambios accidentales.
 
-- Utilizar como formato de nombre del repositorio la siguiente combinación: apellido+nombre+_pruebatec1. Ej: dePaulaLuisina_pruebatec1
+## Conexión a Internet:
+No se requiere conexión a Internet para ejecutar la aplicación después de la compilación.
 
-- Un informe o documentación breve que describa cómo ejecutar y probar la aplicación como así también los "SUPUESTOS" que pudieron ser considerados. Esto puede ser incluido en el archivo README de GitHub.
+## Conclusión:
+La aplicación de DOD4NET proporciona una interfaz simple para gestionar a todos los empleados y está diseñada para ser fácil de usar. Al seguir las instrucciones anteriores, deberías poder compilar, ejecutar y probar la aplicación de manera efectiva. Si se encuentra con problemas, revise la configuración y asegúrese de haber seguido correctamente los pasos indicados.
 
-- El nombre de la base de datos debe ser empleados
 
-- Archivo .sql de la base de datos
 
-- Fecha de entrega máxima Martes 02/01/2023 a las 12 hs (mediodía)
+
+
+
+
+
+
