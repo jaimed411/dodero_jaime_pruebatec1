@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/jaimed411/dodero.jaime.ejerciciospracticos.javabasico/blob/main/javabasico.jpg" alt="foto">
+</p>
+
 # Desarrollo de una Aplicación de Gestión de Empleados
 
 El objetivo de esta prueba es evaluar tus conocimientos en Java, incluyendo sintaxis, estructuras repetitivas, estructuras selectivas, manejo de colecciones y operaciones CRUD (Crear, Leer, Actualizar y Borrar) utilizando JPA (Java Persistence API) para interactuar con una base de datos.
