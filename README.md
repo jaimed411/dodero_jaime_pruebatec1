@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="https://github.com/jaimed411/dodero.jaime.ejerciciospracticos.javabasico/blob/main/javabasico.jpg" alt="foto">
+  <img src="https://github.com/jaimed411/dodero_jaime_pruebatec1/blob/main/pruebatec1.jpg" alt="foto">
 </p>
+
 
 # Desarrollo de una Aplicación de Gestión de Empleados
 
