@@ -49,6 +49,10 @@ La aplicación de DOD4NET proporciona una interfaz simple para gestionar a todos
 
 ## GRACIAS :)
 
+<span style="color:red">Este texto es rojo</span>
+<span style="color:blue">Este texto es azul</span>
+
+
 
 
 
