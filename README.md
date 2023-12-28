@@ -29,10 +29,10 @@ Antes de ejecutar la aplicación, asegúrese de tener instalado lo siguiente:
 
 ## Supuestos Considerados:
 Al desarrollar la aplicación, se han considerado los siguientes supuestos:
-- Entrada de Datos Válida: Se espera que el usuario proporcione entradas válidas durante la interacción con la aplicación.
+- Entrada de Datos Válida: Se espera que el usuario proporcione entradas válidas durante la interacción con la aplicación. Si se pone 0 o =<7, aparecerá un error.
 - Formato de Fecha: Se asume que el usuario ingresará la fecha de inicio en el formato "YYYY-MM-DD".
-- Entrada de Salario: Se asume que el usuario ingresará el salario como un número decimal. Si se ingresa un valor no numérico, se mostrará un mensaje de error
-- ID de Empleado: Al buscar, actualizar o eliminar un empleado, se asume que el usuario ingresará correctamente el ID del empleado. Si se proporciona un ID no válido, se mostrará un mensaje de error.
+- Entrada de Salario: Se asume que el usuario ingresará el salario como un número decimal. Si se ingresa un valor no numérico, se mostrará un error.
+- ID de Empleado: Al buscar, actualizar o eliminar un empleado, se asume que el usuario ingresará correctamente el ID del empleado. Si se proporciona un ID no válido, aparecerá un error.
 - Base de Datos: Se asume que la base de datos configurada en el archivo persistence.xml está disponible y accesible durante la ejecución de la aplicación.
 
 ## Base de datos: 
