@@ -36,7 +36,7 @@ Al desarrollar la aplicación, se han considerado los siguientes supuestos:
 - Base de Datos: Se asume que la base de datos configurada en el archivo persistence.xml está disponible y accesible durante la ejecución de la aplicación.
 
 ## Base de datos: 
-La aplicación utiliza una base de datos embebida proporcionada por JPA. Asegúrese de que la configuración de la base de datos en el archivo persistence.xml sea adecuada. En cuanto al proceso de configuración de la base de datos, Maven es utilizado para manejar las dependencias y la construcción del proyecto. Maven ha simplificado la gestión de dependencias y la construcción del proyecto y esta vinculada directamente a MySQL.
+La aplicación utiliza una base de datos embebida proporcionada por JPA. Asegúrese de que la configuración de la base de datos en el archivo persistence.xml sea adecuada. En cuanto al proceso de configuración de la base de datos, Maven es utilizado para manejar las dependencias y la construcción del proyecto. Maven ha simplificado la gestión de dependencias y la construcción del proyecto y esta vinculada directamente a MySQL. User = "root" Contraseña = ""
 
 ## Operaciones de Actualización y Eliminación:
 Antes de realizar operaciones de actualización o eliminación, el usuario deberá confirmar su acción para evitar cambios accidentales.
@@ -45,7 +45,9 @@ Antes de realizar operaciones de actualización o eliminación, el usuario deber
 No se requiere conexión a Internet para ejecutar la aplicación después de la compilación.
 
 ## Conclusión:
-La aplicación de DOD4NET proporciona una interfaz simple para gestionar a todos los empleados y está diseñada para ser fácil de usar. Al seguir las instrucciones anteriores, deberías poder compilar, ejecutar y probar la aplicación de manera efectiva. Si se encuentra con problemas, revise la configuración y asegúrese de haber seguido correctamente los pasos indicados.
+La aplicación de DOD4NET proporciona una interfaz simple para gestionar a todos los empleados y está diseñada para ser fácil de usar. Al seguir las instrucciones anteriores, deberías poder compilar, ejecutar y probar la aplicación de manera efectiva. Si se encuentra con problemas, revise la configuración y asegúrese de haber seguido correctamente los pasos indicados. De lo contrario, hagamelo saber mediante un commit.
+
+## GRACIAS :)
 
 
 
