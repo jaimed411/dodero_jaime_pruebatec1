@@ -8,7 +8,7 @@ El objetivo de esta prueba es evaluar tus conocimientos en Java, incluyendo sint
 
 ## Descripción de la Aplicación:
 
-La aplicación desarrollada es un sistema de gestión de empleados para la empresa DOD4NET, que permite realizar diversas operaciones como agregar nuevos empleados, listar empleados por orden alfabético, actualizar información de cada empleado, eliminar a un empleado, buscar empleados por cargo y ver le fecha de incio de cada empleado. La aplicación está implementada en Java y utiliza Java Persistence API (JPA) para la persistencia de datos.
+La aplicación desarrollada es un sistema de gestión de empleados para la empresa DOD4NET con un menú interactivo que permite realizar operaciones como agregar nuevos empleados, ver lista de empleados por orden alfabético, actualizar información de cada empleado, eliminar a un empleado, buscar empleados por cargo y ver le fecha de incio de cada empleado. La aplicación está implementada en Java y utiliza Java Persistence API (JPA) para la persistencia de datos.
 
 ## Requisitos previos:
 
