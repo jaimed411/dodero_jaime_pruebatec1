@@ -48,10 +48,7 @@ No se requiere conexión a Internet para ejecutar la aplicación después de la 
 La aplicación de DOD4NET proporciona una interfaz simple para gestionar a todos los empleados y está diseñada para ser fácil de usar. Al seguir las instrucciones anteriores, deberías poder compilar, ejecutar y probar la aplicación de manera efectiva. Si se encuentra con problemas, revise la configuración y asegúrese de haber seguido correctamente los pasos indicados. De lo contrario, hagamelo saber mediante un commit.
 
 ## GRACIAS :)
-
-<span style="color:red">Este texto es rojo</span>
-<span style="color:blue">Este texto es azul</span>
-
+28/12/23
 
 
 
