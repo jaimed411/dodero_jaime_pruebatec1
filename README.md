@@ -2,6 +2,55 @@
   <img src="https://github.com/jaimed411/dodero_jaime_pruebatec1/blob/main/pruebatec1.jpg" alt="foto">
 </p>
 
+## OBJECTIVE: Employee Management Application Development
+
+The objective of this test is to assess your knowledge of Java, including syntax, repetitive structures, selective structures, collection management and CRUD (Create, Read, Update and Delete) operations using JPA (Java Persistence API) to interact with a database.
+
+## Application Description:
+
+The application developed is an employee management system for the company DOD4NET with an interactive menu that allows operations such as adding new employees, viewing employee list in alphabetical order, updating information for each employee, deleting an employee, searching for employees by position and viewing the start date of each employee. The application is implemented in Java and uses Java Persistence API (JPA) for data persistence.
+
+## Prerequisites:
+
+Before running the application, make sure you have the following installed:
+- IDE environment, if possible Netbeans IDE 17
+- Java Development Kit (JDK) - version 17
+- Apache Maven
+
+## Implementation Instructions:
+- Compiling the Project:
+  - Open a terminal or command prompt in the root directory of the project.
+  - Run the following command to compile the project:
+    mvn clean install
+- Running the Application:
+  - Run the following command to run the application:
+    java -jar target/pruebatec1-1.0-SNAPSHOT.jar
+- Interacting with the Application: An interactive menu will be presented in the console. Follow the on-screen instructions to select the desired operations (add, view list, update, delete, search for employee, view start date and exit). Testing is recommended. Add employees, view the list you are creating, update and/or delete employees to verify proper operation.
+
+## Assumptions Considered:
+In developing the application, the following assumptions have been considered:
+- Valid Data Entry: The user is expected to provide valid entries during the interaction with the application. If 0 or =<7 is set, an error will appear.
+- Date Format: It is assumed that the user will enter the start date in the format "YYYYY-MM-DD".
+- Wage Entry: It is assumed that the user will enter the wage as a decimal number. If a non-numeric value is entered, an error will be displayed.
+- Employee ID: When searching for, updating or deleting an employee, it is assumed that the user will correctly enter the employee ID. If an invalid ID is provided, an error will be displayed.
+- Database: It is assumed that the database configured in the persistence.xml file is available and accessible during the execution of the application.
+
+## Database: 
+The application uses an embedded database provided by JPA. Make sure that the database configuration in the persistence.xml file is appropriate. As for the database configuration process, Maven is used to manage dependencies and project builds. Maven has simplified the management of dependencies and project builds and is linked directly to MySQL. User = "root" Password = ""
+
+## Update and Delete operations:
+Before performing update or delete operations, the user must commit their action to avoid accidental changes.
+
+## Internet connection:
+No Internet connection is required to run the application after compilation.
+
+## Conclusion:
+The DOD4NET application provides a simple interface to manage all employees and is designed to be easy to use. By following the above instructions, you should be able to compile, run and test the application effectively. If you encounter problems, please review the configuration and make sure you have followed the steps correctly. Otherwise, let me know with a commit.
+
+## THANK YOU :)
+
+..........................................................................................
+
 ## OBJETIVO: Desarrollo de una Aplicación de Gestión de Empleados
 
 El objetivo de esta prueba es evaluar tus conocimientos en Java, incluyendo sintaxis, estructuras repetitivas, estructuras selectivas, manejo de colecciones y operaciones CRUD (Crear, Leer, Actualizar y Borrar) utilizando JPA (Java Persistence API) para interactuar con una base de datos.
